@@ -34,11 +34,11 @@ const App: React.FC = () => {
         const rawData: UnsplashPhoto[] = await fetchArticles(searchPhoto, page);
         const data: ImageType[] = rawData.map((item) => ({
           id: item.id,
-          alt: item.alt_description || "No description",
+          alt_description: item.alt_description || "No description",
           urls: {
             small: item.urls.small,
             regular: item.urls.regular,
-          }
+          },
         }));
         setImages((prevImages) => [...prevImages, ...data]);
       } catch (error) {
