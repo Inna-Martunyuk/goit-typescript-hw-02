@@ -1,0 +1,28 @@
+.form {
+    background-color: blueviolet;
+    padding: 10px 0;
+    margin: 0;
+  
+}
+.input {
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid transparent; 
+    margin: 20px;
+    padding: 5px;
+    outline:none;
+    transition: all 0.2s ease;
+
+}
+.input:hover {
+     border: 2px solid rgb(210, 119, 14);
+}
+.btn {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(212, 194, 228);
+    border: none;
+    color: rgb(63, 4, 118);
+}

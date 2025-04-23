@@ -1,0 +1,14 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  padding: 20px;
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.image {
+  margin: 0;
+  padding: 0;
+}
